@@ -28,6 +28,6 @@ interface Reportable {
   summary(): string;
 }
 
-const logSummary = (item): void => {
+const logSummary = (item: Reportable): void => {
   console.log(item.summary());
 };
