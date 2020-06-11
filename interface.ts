@@ -10,3 +10,16 @@ const vehicle = {
     `;
   }
 };
+
+const drink = {
+  color: 'brown',
+  sugar: 40,
+  carbonated: true,
+  summary(): string {
+    return `
+      Color: ${this.color}
+      Sugar: ${this.sugar}
+      Carbonated: ${this.carbonated}
+    `;
+  }
+};
