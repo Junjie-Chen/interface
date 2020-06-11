@@ -31,3 +31,5 @@ interface Reportable {
 const logSummary = (item: Reportable): void => {
   console.log(item.summary());
 };
+
+logSummary(vehicle);
