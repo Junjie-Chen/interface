@@ -23,3 +23,7 @@ const drink = {
     `;
   }
 };
+
+interface Reportable {
+  summary(): string;
+}
