@@ -27,3 +27,7 @@ const drink = {
 interface Reportable {
   summary(): string;
 }
+
+const logSummary = (item): void => {
+  console.log(item.summary());
+};
