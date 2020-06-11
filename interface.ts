@@ -33,3 +33,4 @@ const logSummary = (item: Reportable): void => {
 };
 
 logSummary(vehicle);
+logSummary(drink);
